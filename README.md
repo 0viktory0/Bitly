@@ -11,9 +11,13 @@ pip install -r requirements.txt
 ```
 Рекомендуется использовать [virtualenv](https://docs.python.org/3/library/venv.html) для изоляции проекта.
 
-Получение токена
+Как запустить
 -------------------------
-Для корректной работы программы необходио иметь персональный токен `BITLY_TOKEN`. Для его получения, зарегистриуйтесь на [bitly.com](https://bitly.com/a/sign_up). В разделе "Profile Settings" нажмите "Generic Access Token".
+Для корректной работы программы, необходио иметь персональный токен `BITLY_TOKEN`. Для его получения, зарегистриуйтесь на [bitly.com](https://bitly.com/a/sign_up). В разделе "Profile Settings" нажмите "Generic Access Token". 
+Полученный токен необходимо прописать в файле `.env`, как показано ниже.
+```
+BITLY_TOKEN=ваш_токен
+```
 
 Пример работы
 -------------------------
